@@ -18,5 +18,6 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'linebreak-style': ['error', 'windows'],
     'react/forbid-prop-types': 'off',
+    'react/require-default-props': 'off',
   },
 };

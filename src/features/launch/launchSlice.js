@@ -1,8 +1,5 @@
 /* eslint-disable no-param-reassign */
 import { createSlice } from '@reduxjs/toolkit';
-import {
-  filterByDate, filterByUpcoming, fiterByLaunchStatus, searchReducer,
-} from './reducers';
 import GetLaunches from './services';
 
 const launchSlice = createSlice({
@@ -12,12 +9,7 @@ const launchSlice = createSlice({
     loading: false,
     error: null,
   },
-  reducers: {
-    search: searchReducer,
-    filterByDate,
-    fiterByLaunchStatus,
-    filterByUpcoming,
-  },
+  reducers: {},
   extraReducers: {
     [GetLaunches.pending]: (state) => {
       if (!state.loading) {
