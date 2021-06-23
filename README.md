@@ -14,6 +14,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### `yarn run lint`
+
+To run eslint command for src directory with js/jsx files
+
+### `yarn run lint-fix`
+
+To run eslint --fix command for src directory with js/jsx files
+
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
