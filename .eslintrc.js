@@ -16,7 +16,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/jsx-props-no-spreading': 'off',
-    'linebreak-style': process.env.NODE_ENV === 'production' ? ['error', 'unix'] : ['error', 'windows'],
+    'linebreak-style': ['error', 'unix'],
     'react/forbid-prop-types': 'off',
     'react/require-default-props': 'off',
   },
