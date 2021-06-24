@@ -21,10 +21,9 @@ const launchSlice = createSlice({
       state.loading = false;
     },
     [GetLaunches.rejected]: (state, action) => {
-      state.error = action.payload;
+      state.error = action.error.message;
       state.loading = false;
     },
   },
 });
-
 export default launchSlice.reducer;

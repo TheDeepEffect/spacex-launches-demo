@@ -9,7 +9,6 @@ import isInPastTime from '../helpers/dateAndTime';
 const useLaunches = () => {
   const [totalLoaded, setTotalLoaded] = useState(10);
   const dispatch = useDispatch();
-
   useEffect(() => {
     dispatch(GetLaunches());
   }, [dispatch]);
